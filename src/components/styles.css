@@ -1,0 +1,46 @@
+.header {
+    height: 100px;
+    background-color: #6aa84f;
+    grid-column-start:1;
+    grid-column-end: 5;
+    border-style: solid;
+    border-color: black;
+}
+
+.navigation {
+    height: 400px;
+    background-color: #6fa8dc;
+    grid-column-start: 1;
+    grid-column-end: 1;
+    border-style: solid;
+    border-color: black;
+}
+
+.main {
+    height: 400px;
+    background-color: #e06666;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px 20px;
+    padding: 20px;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    border-style: solid;
+    border-color: black;
+}
+
+.subContents {
+    background-color: #ffd966;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-style: solid;
+    border-color: black;
+}
+
+.advertisement {
+    background-color: #b4a7d6;
+    grid-column-start: 1;
+    grid-column-end:4;
+    border-style: solid;
+    border-color: black;
+}
